@@ -1,0 +1,14 @@
+package section3;
+
+import javax.swing.JOptionPane;
+
+public class Greeter {
+	public static void main(String[] args) {
+		
+		System.out.print("A!");
+		JOptionPane.showMessageDialog(null, "Hello! What is your name?");
+		String name = JOptionPane.showInputDialog("What is your name?");
+		System.out.print(name);
+		JOptionPane.showMessageDialog(null, "Good afternoon "+name);
+	}
+}
